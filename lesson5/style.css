@@ -1,0 +1,138 @@
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: aquamarine; */
+  margin: 10px;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: row;
+  height: 100vh;
+}
+.menu {
+  /* background-color: #fa8072; */
+  flex-grow: 1;
+  height: 100%;
+  width: 15%;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.containt {
+  /* background-color: blue; */
+  flex-grow: 8;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.input {
+  /* background-color: green; */
+  width: 10%;
+  border-radius: 10%;
+  border-style: ridge;
+}
+.display {
+  /* background-color: green; */
+  width: 10%;
+  border-style: ridge;
+  border-radius: 10%;
+}
+.filter {
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  /* background-color: #4682b4; */
+  border-radius: 10px;
+}
+.video {
+  flex-grow: 20;
+  /* background-color: orange; */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.box1 {
+  width: 20%;
+  height: 200px;
+  display: flex;
+  background-color: azure;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.image {
+  height: 100px;
+  width: 90%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 10%;
+}
+.ner {
+  height: 80px;
+  width: 90%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-radius: 10%;
+}
+.disc1 {
+  display: flex;
+  height: 100%;
+  /* background-color: #fa8072; */
+  flex-grow: 2;
+  /* width: 30%; */
+  overflow: visible;
+}
+.disc2 {
+  display: flex;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-grow: 8;
+  margin-left: 10px;
+  border-radius: 10%;
+}
+* {
+  box-sizing: border-box;
+}
+.image2 {
+  height: 1cm;
+  width: 1cm;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  height: 60px;
+  width: 90px;
+}
+.HOME {
+  display: flex;
+  text-align: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image img {
+  border-radius: 10%;
+}
+.a123 {
+  width: 100%;
+}
